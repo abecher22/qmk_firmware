@@ -3,6 +3,7 @@
 *.bin
 *.eep
 *.elf
+*.exe
 *.hex
 *.qmk
 !util/bootloader.hex
@@ -37,6 +38,7 @@ doxygen/
 /keyboards/*/*/*/keymaps/Makefile
 /keyboards/*/*/*/*/keymaps/Makefile
 /keyboards/*/*/*/*/*/keymaps/Makefile
+**/obj/*
 
 # Eclipse/PyCharm/Other IDE Settings
 .cproject
